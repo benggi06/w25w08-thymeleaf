@@ -14,6 +14,7 @@ class SongController(
         model.addAttribute(
             "song",
             service.getRandomSong()
+
         )
         return "random"
     }
